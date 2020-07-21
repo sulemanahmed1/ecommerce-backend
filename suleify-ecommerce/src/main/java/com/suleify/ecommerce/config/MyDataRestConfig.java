@@ -13,7 +13,7 @@ import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 
 @Configuration 
-public class MyDataRestConfig implements RepositoryRestConfigurer {
+public class MyDataRestConfig  implements RepositoryRestConfigurer  {
 	
 	private EntityManager entityManager; 
 	
